@@ -19,7 +19,7 @@ function Educationhub() {
               page_3: "The bark and leaves have been traditionally used in medicine to treat infections and inflammation."
             },
             uses: ["Timber", "Medicinal uses", "Acorn food for wildlife"],
-            image: "./src/EducationHub/images/oakTree.jpg",
+            image: "./src/public/images/oakTree.jpg",
             forest_type: "Deciduous forests (temperate regions)"
           },
           {
@@ -32,7 +32,7 @@ function Educationhub() {
               page_3: "Pine nuts are edible seeds rich in nutrients and widely consumed around the world. Pine forests are also critical for soil stabilization and carbon sequestration."
             },
             uses: ["Timber", "Resin", "Essential oils", "Pine nuts"],
-            image: "./src/EducationHub/images/PineTree.jpg",
+            image: "./src/public/images/PineTree.jpg",
             forest_type: "Coniferous forests (boreal and temperate)"
           },
           {
@@ -45,7 +45,7 @@ function Educationhub() {
               page_3: "Teak trees support diverse forest ecosystems, offering shelter to animals and stabilizing soil. Sustainable teak plantations contribute to economic growth in tropical regions."
             },
             uses: ["High-quality timber", "Furniture", "Shipbuilding"],
-            image: "./src/EducationHub/images/TeakTree.jpg",
+            image: "./src/public/images/TeakTree.jpg",
             forest_type: "Tropical deciduous forests"
           },
           {
@@ -58,7 +58,7 @@ function Educationhub() {
               page_3: "Its robust root system helps prevent soil erosion, making it valuable for reforestation and soil conservation efforts. Young bamboo shoots are also a nutritious food source."
             },
             uses: ["Construction", "Furniture", "Food", "Textile", "Paper"],
-            image: "./src/EducationHub/images/Bamboo.jpeg",
+            image: "./src/public/images/Bamboo.jpeg",
             forest_type: "Tropical and subtropical forests, some temperate regions"
           },
           {
@@ -71,7 +71,7 @@ function Educationhub() {
               page_3: "The tree has medicinal properties, traditionally used for ailments like fever and hypertension. However, overharvesting has led to conservation efforts to protect this endangered species."
             },
             uses: ["High-quality timber", "Medicine", "Furniture"],
-            image: "./src/EducationHub/images/Mahogany Tree.jpg",
+            image: "./src/public/images/Mahogany Tree.jpg",
             forest_type: "Tropical rainforests"
           },
           {
@@ -84,7 +84,7 @@ function Educationhub() {
               page_3: "Moss helps maintain forest soil fertility and supports biodiversity by providing habitat for insects and small animals. Some mosses have been used in traditional medicine for wound healing."
             },
             uses: ["Soil fertility", "Erosion control", "Traditional medicine"],
-            image: "./src/EducationHub/images/moss.jpg",
+            image: "./src/public/images/moss.jpg",
             forest_type: "Temperate and tropical rainforests"
           },
           {
@@ -97,7 +97,7 @@ function Educationhub() {
               page_3: "Ferns are valued as ornamental plants and have been used medicinally for treating various ailments. They are essential in forest understories, creating microhabitats for smaller plants and animals."
             },
             uses: ["Soil stabilization", "Ornamental plants", "Medicinal uses"],
-            image: "./src/EducationHub/images/Ferns.jpeg",
+            image: "./src/public/images/Ferns.jpeg",
             forest_type: "Temperate and tropical rainforests"
           },
           {
@@ -110,7 +110,7 @@ function Educationhub() {
               page_3: "Planting tips: Red cedar prefers moist, well-drained soil and partial shade but can tolerate a range of conditions. Indigenous peoples have long used red cedar for canoes, totem poles, and medicines. Its dense foliage provides shelter for forest wildlife."
             },
             uses: ["Timber", "Essential oils", "Medicinal uses"],
-            image: "./src/EducationHub/images/Red Cedar.jpg",
+            image: "./src/public/images/Red Cedar.jpg",
             forest_type: "Temperate rainforests"
           }
           //can add more data
