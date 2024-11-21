@@ -1,0 +1,61 @@
+.forest-story-container {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.slider-container {
+  position: relative;
+  width: 100%;
+  height: 400px; /* You can adjust this as per your design */
+  margin-top: 20px;
+}
+
+.slider-container img {
+  width: 100%;
+  height: auto;
+  object-fit: cover; /* Ensure images scale properly */
+}
+
+.actions-container {
+  margin-top: 30px;
+}
+
+.action-btn {
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  transition: background-color 0.3s;
+}
+
+.positive-btn {
+  background-color: #4caf50; /* Green for positive action */
+  color: white;
+}
+
+.positive-btn:hover {
+  background-color: #45a049;
+}
+
+.negative-btn {
+  background-color: #f44336; /* Red for negative action */
+  color: white;
+}
+
+.negative-btn:hover {
+  background-color: #e53935;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.1rem;
+  margin-top: 20px;
+}

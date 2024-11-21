@@ -1,0 +1,53 @@
+/* src/StoryPanel.css */
+.story-panel {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    transition: background-image 0.5s ease-in-out, opacity 0.5s ease-in-out;
+    z-index: 1000;
+  }
+  
+  .close-button {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    width: 3%;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 8px 12px;
+    border-radius: 5px;
+    z-index: 10;
+  }
+  
+  .content {
+    max-width: 80%;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+  }
+  
+  .content h1 {
+    font-size: 5rem;
+    margin-bottom: 10px;
+  }
+  
+  .content p {
+    font-size: 4rem;
+    line-height: 1.6;
+  }
+  

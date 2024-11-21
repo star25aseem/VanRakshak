@@ -1,0 +1,30 @@
+#root,canvas{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+.flex{
+    display: flex;
+}
+.fixed{
+    position: fixed;
+}
+.absolute{
+    position: absolute;
+}
+.relative{
+    position: relative;
+}
+.centered{
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    height: 20px;
+    width: 10px;
+}
+.cursor{
+    color:white;
+}

@@ -1,0 +1,11 @@
+Model Information:
+* title:	Cambrian
+* source:	https://sketchfab.com/3d-models/cambrian-0942582df83c48a185021a2ef1c916cc
+* author:	Dolores (https://sketchfab.com/upto21)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Cambrian" (https://sketchfab.com/3d-models/cambrian-0942582df83c48a185021a2ef1c916cc) by Dolores (https://sketchfab.com/upto21) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

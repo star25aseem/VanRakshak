@@ -1,0 +1,48 @@
+.App{
+    display: block;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    height: 100px;
+    width: 100%;
+}
+#action-bar {
+    height: 400px;
+    width: 100%;
+    margin-top: 100px;
+    margin-left: 900px;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 5%;
+    font-size: 24px;
+    color: rgb(6, 6, 6);
+    border-radius: 10px;
+    position: absolute;
+    transform: translateX(-50%);
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+.positive{
+    background-color: rgb(133, 149, 132);
+}
+.negative{
+    background-color: rgb(132, 149, 149);
+}
+#StartGame {
+    font-size: 18px;
+    margin-top: 200px;
+    height: 400px;
+    width: 400px;
+    align-items: center;
+    cursor: pointer;
+}

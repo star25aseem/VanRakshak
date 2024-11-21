@@ -1,0 +1,28 @@
+.card {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    padding: 20px;
+    margin-right: 15px;
+    width: 250px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card h2 {
+    font-size: 1.2em;
+    color: #010303;
+}
+.card p {
+    font-size: 0.8em;
+    color: #030808;
+}
+.card-image {
+    width: 100%; /* Make the image take the full width of the card */
+    height: 80%; /* Maintain aspect ratio */
+}
