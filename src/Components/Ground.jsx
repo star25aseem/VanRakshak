@@ -1,5 +1,5 @@
 import { RigidBody } from "@react-three/rapier";
-import { groundTexture } from "../images/textures";
+import { groundTexture } from "../../public/images/textures";
 import { NearestFilter, RepeatWrapping } from "three";
 
 export const Ground = () => {
