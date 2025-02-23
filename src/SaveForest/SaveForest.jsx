@@ -110,9 +110,7 @@ const actions = [
 
 function SaveForest() {
     const {time} = useParams();
-    console.log("time:"+time)
     const Time=Number(time);
-    console.log("Time:"+Time)
     const location=useLocation();
     const navigate=useNavigate();
     const [greenCount, setGreenCount] = useState(0);
@@ -130,7 +128,6 @@ function SaveForest() {
         setGreenCount(0);
         setIsGameActive(true);
         endTime = Date.now() + gameDuration;
-        console.log("hi"+gameDuration)
         actionInterval = setInterval(showRandomAction, 1000); 
 
         setTimeout(endGame, gameDuration);
@@ -167,7 +164,7 @@ function SaveForest() {
     return (
         <div className="App">
             <link rel='stylesheet' href='./SaveForest.css'></link>
-            <h1>Your Green Count: {greenCount}</h1>
+            <h1>Your {String(gameDuration/1000)} year is simulated to {String(gameDuration/1000)} seconds and your green count is {greenCount} </h1>
             {!isGameActive && <button id="StartGame" onClick={startGame}>Start Game</button>}
             {isGameActive && (
                 <div id="action-bar" onClick={handleActionClick} className={actionType}>
